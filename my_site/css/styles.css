@@ -1,0 +1,36 @@
+.Inter {
+    font-size: 2em;
+    font-family: 'Inter', sans-serif;
+}
+
+.Space {
+    font-size: 1.5em;
+    font-family: 'Space Mono', sans-serif;
+
+}
+
+.wideleftmargin {
+    padding: 5% 5% 5% 10%;
+}
+
+.bottomrule {
+    border-bottom: 1px solid #000000;
+}
+
+.maroon {
+    background-color: #6f1111;
+}
+
+.poster {
+  height: 200px;
+  width: 50%;
+}
+
+#footer {
+  font-size: 1.5em;
+  font-family: 'Space Mono', sans-serif;
+  padding: 5% 5% 5% 50%;
+	background-color: #000000;
+	width: 50%;
+	color: #6f1111;
+}
