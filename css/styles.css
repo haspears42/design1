@@ -1,0 +1,55 @@
+
+body {
+  margin: 0px auto;
+  max-width:100%;
+  overflow-x:hidden;
+  text-align:center;
+  cursor: url('../images/cloud.png'), auto;
+}
+
+a:hover {
+  cursor: url('../images/testcursor.png'), auto;
+}
+
+h1 {
+  font-family: Andale Mono, monospace;
+  font-size: 10em;
+  color: #27266e;
+}
+
+p {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 2em;
+  color: #27266e;
+}
+
+.sky {
+  z-index:1;
+  padding:1
+}
+
+#stressgif {
+  z-index:2em;
+  scale: 0.30;
+}
+
+#backgroundimage {
+  width:100%;
+  margin: 0px auto;
+  z-index:-1;
+  position:absolute;
+  top:0;
+}
+
+#backgroundimage img {
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+
+.maintext {
+  margin:auto;
+  padding:1em;
+  max-width:800px;
+  text-align:left;
+}
